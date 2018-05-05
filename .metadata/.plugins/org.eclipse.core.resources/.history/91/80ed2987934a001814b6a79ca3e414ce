@@ -1,0 +1,15 @@
+package Abstract;
+
+public class Executive extends Employee{
+	private double bonus;
+	
+	public Executive(String socialSecurityNumber, double payRate, String name, String address, String phone, double bonus) {
+		super(socialSecurityNumber, payRate, name, address, phone);
+		this.bonus = bonus;
+	}
+	
+	public double awarBonus(double bonus) {
+		double total = bonus + pay();
+		return total;
+	}
+}

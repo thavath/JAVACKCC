@@ -1,0 +1,30 @@
+package Interface;
+
+public class SalaryEmployee extends Employee{
+	
+	private double weeklySalary;
+	
+	public SalaryEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary) {
+		super(firstName, lastName, socialSecurityNumber);
+		this.setWeeklySalary(weeklySalary);
+	}
+	
+	public double getPaymentAmount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	public double getWeeklySalary() {
+		return weeklySalary;
+	}
+	
+	public void setWeeklySalary(double weeklySalary) {
+		this.weeklySalary = weeklySalary;
+	}
+	
+	@Override
+	public String toString() {
+		return "SalaryEmployee [weeklySalary = " + weeklySalary + "]";
+	}
+	
+}

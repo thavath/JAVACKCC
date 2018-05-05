@@ -1,0 +1,9 @@
+package Exception;
+
+public class CheckingAccount {
+
+	public CheckingAccount() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

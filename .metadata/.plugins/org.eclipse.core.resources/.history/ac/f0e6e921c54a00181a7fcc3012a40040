@@ -1,0 +1,9 @@
+package Interface;
+
+public class Invoie {
+
+	public Invoie() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

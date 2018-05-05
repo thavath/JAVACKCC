@@ -1,0 +1,9 @@
+package Abstract;
+
+public class Voluntear {
+
+	public Voluntear() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

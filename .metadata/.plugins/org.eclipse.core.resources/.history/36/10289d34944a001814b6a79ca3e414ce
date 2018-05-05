@@ -1,0 +1,9 @@
+package Abstract;
+
+public class Hourly {
+
+	public Hourly() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

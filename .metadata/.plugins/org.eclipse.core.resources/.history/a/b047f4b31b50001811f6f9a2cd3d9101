@@ -1,0 +1,9 @@
+package Exception;
+
+public class UserDefinedException {
+
+	public UserDefinedException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,6 @@
+package ExerciseInterface;
+
+public class BasePlusCommissionEmployee extends CommissionEmployee{
+
+
+}

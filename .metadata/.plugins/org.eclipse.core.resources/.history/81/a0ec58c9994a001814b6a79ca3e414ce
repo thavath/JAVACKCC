@@ -1,0 +1,15 @@
+package Abstract;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		StaffMember[] staff = new StaffMember[4];
+		
+		staff[0] = new Executive("12345", 40.0, "Thavath", "Phnom Penh", "+855938752", 50);
+		staff[1] = new Hourly("55555", 30.0, "Daraka", "Phnom Penh", "+85596333358", 150);
+		staff[0] = new Employee("55555", 30.0, "Daraka", "Phnom Penh", "+85596333358");
+		staff[1] = new Hourly("55555", 30.0, "Dara", "Phnom Thom", "+855964534", 160);
+	}
+
+}

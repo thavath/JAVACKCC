@@ -1,0 +1,9 @@
+package Exception;
+
+public class InsufficientFundsException {
+
+	public InsufficientFundsException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,26 @@
+package Exception;
+
+public class MultiCatchException {
+
+	public MultiCatchException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			int a[] = new int[5];
+			a[4] = 30/1;
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Parent class Exception happaned.");
+		}catch (ArithmeticException e) {
+			// TODO: handle exception
+			System.out.println("Arithmetic Exception happaned.");
+		} catch (ArrayIndexOutOfBoundsException e) {
+			// TODO: handle exception
+			System.out.println("Array out of bound Exception happaned.");
+		} 
+	}
+
+}
