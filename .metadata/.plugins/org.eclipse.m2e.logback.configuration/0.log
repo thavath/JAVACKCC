@@ -1043,3 +1043,30 @@
 2018-06-23 11:25:12,131 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\FindPagesSwing\src\main\resources
 2018-06-23 11:25:12,132 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-06-23 11:25:12,137 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\FindPagesSwing\src\test\resources
+2018-06-23 14:06:02,878 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-23 14:24:39,315 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\CKCC\Desktop\Saturday\JMenu\pom.xml
+2018-06-23 14:24:42,143 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:JMenu:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\JMenu\pom.xml.
+2018-06-23 14:24:42,924 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JMenu/src/main/java
+2018-06-23 14:24:42,924 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /JMenu/src/test/java
+2018-06-23 14:24:43,002 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2018-06-23 14:24:43,548 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:24:43,548 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\main\resources
+2018-06-23 14:24:43,548 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:24:43,548 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\test\resources
+2018-06-23 14:25:13,192 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:JMenu:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\JMenu\pom.xml.
+2018-06-23 14:25:13,427 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:25:13,427 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\main\resources
+2018-06-23 14:25:13,427 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:25:13,427 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\test\resources
+2018-06-23 14:25:14,520 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:25:14,536 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\main\resources
+2018-06-23 14:25:14,536 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:25:14,536 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\test\resources
+2018-06-23 14:27:19,019 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:27:19,034 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\main\resources
+2018-06-23 14:27:19,034 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:27:19,050 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\test\resources
+2018-06-23 14:37:03,858 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:37:03,858 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\main\resources
+2018-06-23 14:37:03,874 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-23 14:37:03,874 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\JMenu\src\test\resources
