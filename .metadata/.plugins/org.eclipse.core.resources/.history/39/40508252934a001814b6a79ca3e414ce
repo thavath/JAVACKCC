@@ -1,9 +1,0 @@
-package Abstract;
-
-public class Executive {
-
-	public Executive() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

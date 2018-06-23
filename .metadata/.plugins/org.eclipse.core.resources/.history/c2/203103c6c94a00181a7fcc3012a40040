@@ -1,9 +1,0 @@
-package ExerciseInterface;
-
-public class BasePlusCommissionEmployee {
-
-	public BasePlusCommissionEmployee() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

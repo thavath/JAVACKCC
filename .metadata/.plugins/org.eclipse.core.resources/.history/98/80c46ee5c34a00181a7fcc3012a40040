@@ -1,9 +1,0 @@
-package Interface;
-
-public class SalaryEmployee {
-
-	public SalaryEmployee() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

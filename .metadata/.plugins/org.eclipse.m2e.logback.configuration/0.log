@@ -6,3 +6,821 @@
 2018-04-28 13:04:25,735 [Worker-7] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2018-05-05 08:46:34,629 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-05-05 13:11:05,538 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-09 08:48:04,284 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-06-09 09:09:53,046 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-09 14:59:34,831 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-09 15:08:11,851 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-06-09 15:08:12,166 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-06-09 15:08:12,425 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-06-09 15:08:12,717 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-06-09 15:09:12,832 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\CKCC\Desktop\Maven\junittesting\pom.xml
+2018-06-09 15:09:15,951 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:junittesting:4.12.0-SNAPSHOT @ C:\Users\CKCC\Desktop\Maven\junittesting\pom.xml.
+2018-06-09 15:09:16,670 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junittesting/src/main/java
+2018-06-09 15:09:16,679 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /junittesting/src/test/java
+2018-06-09 15:09:16,802 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2018-06-09 15:09:17,136 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:09:17,136 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:09:17,138 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:09:17,138 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:10:17,991 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:10:17,991 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:10:18,009 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:10:18,010 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:12:50,078 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:12:50,079 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:12:50,085 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:12:50,089 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:18:00,718 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:18:00,718 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:18:00,734 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:18:00,740 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:19:46,775 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:19:46,775 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:19:46,781 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:19:46,785 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:20:31,046 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:20:31,046 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:20:31,054 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:20:31,059 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:22:07,191 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:22:07,191 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:22:07,196 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:22:07,203 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:26:25,127 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:junittesting:4.12.0-SNAPSHOT @ C:\Users\CKCC\Desktop\Maven\junittesting\pom.xml.
+2018-06-09 15:26:26,469 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2018-06-09 15:26:26,946 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+2018-06-09 15:26:27,184 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2018-06-09 15:26:27,439 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom
+2018-06-09 15:26:27,678 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2018-06-09 15:26:27,987 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom
+2018-06-09 15:26:28,240 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2018-06-09 15:26:29,596 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+2018-06-09 15:26:29,871 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2018-06-09 15:26:30,334 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2018-06-09 15:26:30,867 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:26:30,867 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:26:30,874 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:26:30,878 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:26:32,025 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:26:32,025 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:26:32,026 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:26:32,033 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:30:05,406 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:30:05,411 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:30:05,417 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:30:05,421 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 15:31:40,567 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:31:40,567 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 15:31:40,568 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 15:31:40,574 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 16:01:36,767 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\CKCC\Desktop\Maven\employeetest\pom.xml
+2018-06-09 16:01:36,897 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:employeetest:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Maven\employeetest\pom.xml.
+2018-06-09 16:01:37,035 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employeetest/src/main/java
+2018-06-09 16:01:37,047 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /employeetest/src/test/java
+2018-06-09 16:01:37,112 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2018-06-09 16:01:37,377 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:01:37,377 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:01:37,384 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:01:37,384 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:02:15,923 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:02:15,923 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:02:15,949 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:02:15,957 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:03:56,882 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:03:56,882 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:03:56,894 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:03:56,901 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:09:19,756 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:09:19,756 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:09:19,765 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:09:19,769 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:10:02,899 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:10:02,900 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:10:02,905 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:10:02,910 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:12:15,598 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:12:15,598 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:12:15,606 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:12:15,612 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:12:59,509 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:12:59,509 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:12:59,516 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:12:59,521 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:13:02,875 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:13:02,875 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:13:02,881 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:13:02,886 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:13:21,339 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:13:21,339 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:13:21,345 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:13:21,349 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:13:40,015 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:13:40,015 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:13:40,022 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:13:40,031 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:18:04,245 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:18:04,245 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:18:04,252 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:18:04,257 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:19:18,177 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:19:18,177 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:19:18,183 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:19:18,189 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:23:02,071 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:23:02,071 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:23:02,077 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:23:02,081 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:23:39,240 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:23:39,240 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:23:39,246 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:23:39,252 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:26:07,717 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:26:07,717 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:26:07,723 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:26:07,727 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:26:14,108 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:26:14,108 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:26:14,115 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:26:14,121 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:26:48,117 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:26:48,118 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:26:48,123 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:26:48,128 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:27:08,379 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:27:08,379 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:27:08,384 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:27:08,388 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:27:33,864 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:27:33,865 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:27:33,870 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:27:33,874 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:28:27,808 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:28:27,809 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:28:27,815 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:28:27,822 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:32:44,806 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:32:44,806 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-09 16:32:44,812 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:32:44,816 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-09 16:46:26,423 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:46:26,423 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:46:26,430 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:46:26,434 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:46:34,723 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:46:34,723 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:46:34,733 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:46:34,740 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:46:42,799 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:46:42,799 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:46:42,805 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:46:42,811 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:47:38,711 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:47:38,711 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:47:38,724 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:47:38,729 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:47:50,290 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:47:50,290 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:47:50,296 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:47:50,300 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:49:01,860 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:49:01,860 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:49:01,867 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:49:01,875 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:49:27,577 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:49:27,577 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:49:27,583 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:49:27,595 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:50:52,863 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:50:52,863 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:50:52,872 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:50:52,878 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:51:19,919 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:51:19,919 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:51:19,925 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:51:19,929 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:51:48,753 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:51:48,754 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:51:48,762 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:51:48,773 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:55:11,797 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:55:11,797 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:55:11,802 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:55:11,807 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:55:50,755 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:55:50,755 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:55:50,761 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:55:50,765 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:56:42,807 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:56:42,807 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:56:42,813 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:56:42,817 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:56:53,674 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:56:53,674 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:56:53,683 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:56:53,739 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-09 16:57:06,722 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:57:06,722 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-09 16:57:06,731 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-09 16:57:06,740 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-16 08:42:37,053 [Worker-8] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-06-16 09:27:48,838 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-16 09:28:46,047 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml
+2018-06-16 09:28:49,530 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:Reservation:4.12.0-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml.
+2018-06-16 09:28:50,360 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Reservation/src/main/java
+2018-06-16 09:28:50,370 [Worker-1] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Reservation/src/test/java
+2018-06-16 09:28:50,620 [Worker-1] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2018-06-16 09:28:51,585 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:28:51,585 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:28:51,585 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:28:51,585 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:28:52,279 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:28:52,279 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-16 09:28:52,279 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:28:52,279 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-16 09:28:52,650 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:28:52,650 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-16 09:28:52,650 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:28:52,650 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-16 09:29:24,156 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:Reservation:4.12.0-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml.
+2018-06-16 09:29:24,281 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:29:24,297 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:29:24,297 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:29:24,297 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:29:25,464 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:29:25,464 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:29:25,464 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:29:25,464 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:29:30,370 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:Reservation:4.12.0-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml.
+2018-06-16 09:29:32,120 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12.0/junit-4.12.0.pom
+2018-06-16 09:29:32,136 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for junit:junit:jar:4.12.0 is missing, no dependency information available
+2018-06-16 09:29:33,257 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.12.0/junit-4.12.0.jar
+2018-06-16 09:29:33,351 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:29:33,351 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:29:33,367 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:29:33,367 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:30:13,874 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for junit:junit:jar:4.12.0 is missing, no dependency information available
+2018-06-16 09:30:13,890 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:30:13,906 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:30:13,906 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:30:13,906 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:32:12,636 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:32:12,636 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:32:12,638 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:32:12,639 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:32:23,177 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:32:23,177 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:32:23,178 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:32:23,178 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:35:52,545 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:35:52,546 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:35:52,553 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:35:52,558 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:39:23,808 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:39:23,808 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:39:23,813 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:39:23,813 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:41:06,258 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:41:06,258 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:41:06,265 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:41:06,265 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:42:05,352 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:42:05,352 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:42:05,353 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:42:05,353 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:42:13,351 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:42:13,351 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:42:13,357 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:42:13,357 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:43:40,337 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:43:40,337 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:43:40,338 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:43:40,338 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:44:36,813 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:44:36,818 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:44:36,824 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:44:36,825 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:46:00,027 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:46:00,027 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:46:00,028 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:46:00,029 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:46:37,896 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:46:37,916 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:46:37,927 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:46:37,928 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:46:43,856 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:46:43,856 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:46:43,857 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:46:43,857 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:47:55,033 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:47:55,034 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:47:55,047 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:47:55,047 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:47:59,096 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:47:59,097 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:47:59,098 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:47:59,098 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:48:42,754 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:48:42,763 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:48:42,770 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:48:42,770 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:48:51,572 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:48:51,572 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:48:51,573 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:48:51,573 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:50:37,516 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:Reservation:4.12.0-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml.
+2018-06-16 09:50:37,598 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:50:37,605 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:50:37,606 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:50:37,612 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:50:38,884 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:50:38,884 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:50:38,885 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:50:38,889 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:51:41,832 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:51:41,837 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:51:41,843 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:51:41,848 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:56:00,538 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:56:00,539 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:56:00,540 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:56:00,557 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 09:56:11,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:56:11,982 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 09:56:11,988 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 09:56:11,993 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 10:06:41,268 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\CKCC\Desktop\Saturday\SwingFrame\pom.xml
+2018-06-16 10:06:41,346 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:SwingFrame:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\SwingFrame\pom.xml.
+2018-06-16 10:06:41,534 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SwingFrame/src/main/java
+2018-06-16 10:06:41,549 [Worker-25] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SwingFrame/src/test/java
+2018-06-16 10:06:41,612 [Worker-25] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2018-06-16 10:06:41,893 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:06:41,893 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:06:41,909 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:06:41,909 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:10:39,402 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:10:39,402 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:10:39,412 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:10:39,417 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:10:50,101 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:10:50,102 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:10:50,107 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:10:50,112 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:11:32,411 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:11:32,411 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:11:32,418 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:11:32,423 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:12:02,330 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:12:02,331 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:12:02,347 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:12:02,354 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:12:15,925 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:12:15,926 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:12:15,936 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:12:15,941 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:12:31,124 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:12:31,125 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:12:31,141 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:12:31,168 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:13:02,859 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:13:02,860 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:13:02,867 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:13:02,871 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:13:47,999 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:SwingFrame:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\SwingFrame\pom.xml.
+2018-06-16 10:13:48,103 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:13:48,108 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:13:48,114 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:13:48,119 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:13:49,307 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:13:49,313 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:13:49,318 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:13:49,322 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:28:16,707 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:28:16,707 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:28:16,714 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:28:16,719 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:29:45,517 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:29:45,523 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:29:45,544 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:29:45,555 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:43:02,196 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:43:02,197 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:43:02,216 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:43:02,228 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:43:30,341 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:43:30,347 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:43:30,353 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:43:30,358 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:44:05,491 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:44:05,497 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:44:05,502 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:44:05,506 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:44:26,271 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:44:26,282 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:44:26,297 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:44:26,310 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:44:36,831 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:44:36,839 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:44:36,849 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:44:36,856 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:45:11,209 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:45:11,215 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:45:11,220 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:45:11,224 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:47:21,211 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:47:21,219 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:47:21,229 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:47:21,244 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:47:58,854 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:47:58,863 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:47:58,870 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:47:58,878 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:48:40,589 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:48:40,604 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:48:40,614 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:48:40,620 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:50:17,253 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:50:17,258 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:50:17,266 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:50:17,272 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:50:27,676 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:50:27,685 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:50:27,694 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:50:27,700 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:51:17,106 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:51:17,111 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:51:17,127 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:51:17,140 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:52:27,537 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:52:27,537 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:52:27,544 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:52:27,548 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:53:04,325 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:53:04,343 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:53:04,362 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:53:04,368 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:53:53,991 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:53:53,997 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:53:54,005 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:53:54,011 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:56:06,261 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:56:06,267 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:56:06,273 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:56:06,278 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:56:50,027 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:56:50,032 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:56:50,037 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:56:50,041 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 10:57:30,497 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:57:30,503 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 10:57:30,510 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 10:57:30,516 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:00:54,427 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:00:54,436 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:00:54,444 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:00:54,453 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:10:56,891 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:10:56,891 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:10:56,905 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:10:56,917 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:12:40,572 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:12:40,580 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:12:40,595 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:12:40,607 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:14:11,312 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:14:11,318 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:14:11,324 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:14:11,329 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:14:17,643 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:14:17,650 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:14:17,656 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:14:17,662 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:15:00,906 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:15:00,906 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:15:00,917 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:15:00,934 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:15:13,628 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:15:13,636 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:15:13,641 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:15:13,646 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:16:09,889 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:16:09,894 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:16:09,900 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:16:09,905 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:16:17,960 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:16:17,965 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:16:17,970 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:16:17,976 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:21:25,603 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:21:25,611 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:21:25,617 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:21:25,622 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:21:38,498 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:21:38,515 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:21:38,521 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:21:38,527 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 11:21:54,867 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:21:54,876 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 11:21:54,883 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 11:21:54,888 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 13:20:55,208 [Worker-6] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-16 13:57:35,717 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:Reservation:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml.
+2018-06-16 13:57:36,541 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:36,541 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 13:57:36,543 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:36,543 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 13:57:36,680 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:SwingFrame:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\SwingFrame\pom.xml.
+2018-06-16 13:57:36,738 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:36,738 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 13:57:36,739 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:36,739 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 13:57:37,526 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:37,526 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\main\resources
+2018-06-16 13:57:37,528 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:37,528 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\employeetest\src\test\resources
+2018-06-16 13:57:37,627 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:37,633 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\main\resources
+2018-06-16 13:57:37,635 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:37,635 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Maven\junittesting\src\test\resources
+2018-06-16 13:57:39,801 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: junit:Reservation:0.0.1-SNAPSHOT @ C:\Users\CKCC\Desktop\Saturday\Reservation\pom.xml.
+2018-06-16 13:57:39,852 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:39,856 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\main\resources
+2018-06-16 13:57:39,861 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:57:39,861 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\Reservation\src\test\resources
+2018-06-16 13:59:06,786 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:59:06,787 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 13:59:06,788 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 13:59:06,788 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:01:10,844 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:01:10,844 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:01:10,845 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:01:10,845 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:01:49,019 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:01:49,019 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:01:49,030 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:01:49,034 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:02:03,672 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:02:03,673 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:02:03,674 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:02:03,674 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:02:38,637 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:02:38,644 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:02:38,657 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:02:38,658 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:05:05,908 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:05:05,908 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:05:05,909 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:05:05,909 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:10:46,081 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:10:46,089 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:10:46,095 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:10:46,095 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:13:23,002 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:13:23,002 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:13:23,004 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:13:23,004 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:15:58,791 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:15:58,796 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:15:58,801 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:15:58,802 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:17:02,961 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:17:02,961 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:17:02,962 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:17:02,962 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:19:07,925 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:19:07,925 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:19:07,936 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:19:07,936 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:20:07,690 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:20:07,690 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:20:07,691 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:20:07,691 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:20:16,921 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:20:16,956 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:20:16,964 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:20:16,964 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:22:28,663 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:22:28,664 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:22:28,664 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:22:28,664 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:22:59,821 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:22:59,821 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:22:59,827 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:22:59,827 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:23:32,717 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:23:32,718 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:23:32,718 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:23:32,718 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:23:55,298 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:23:55,303 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:23:55,308 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:23:55,309 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:24:37,060 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:24:37,061 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:24:37,062 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:24:37,062 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:25:39,742 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:25:39,750 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:25:39,757 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:25:39,758 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:27:19,459 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:27:19,459 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:27:19,460 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:27:19,460 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:27:56,689 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:27:56,705 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:27:56,713 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:27:56,713 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:29:47,471 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:29:47,471 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:29:47,472 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:29:47,472 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:31:28,907 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:31:28,933 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:31:28,942 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:31:28,942 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:31:56,432 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:31:56,433 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:31:56,434 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:31:56,434 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:32:39,911 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:32:39,917 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:32:39,923 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:32:39,923 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:38:34,992 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:38:34,992 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:38:34,993 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:38:34,993 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:38:53,242 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:38:53,272 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:38:53,285 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:38:53,285 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:39:18,954 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:39:18,954 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:39:18,955 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:39:18,955 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:54:13,330 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:54:13,330 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:54:13,361 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:54:13,361 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:54:35,470 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:54:35,470 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:54:35,471 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:54:35,471 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:54:56,838 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:54:56,838 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:54:56,845 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:54:56,845 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:57:35,780 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:57:35,781 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:57:35,782 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:57:35,782 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:57:47,419 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:57:47,436 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:57:47,442 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:57:47,442 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:58:45,746 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:58:45,746 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:58:45,746 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:58:45,747 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 14:59:37,569 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:59:37,591 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 14:59:37,597 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 14:59:37,597 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:01:00,122 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:01:00,123 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:01:00,124 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:01:00,124 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:01:25,630 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:01:25,634 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:01:25,640 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:01:25,640 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:02:31,600 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:02:31,600 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:02:31,600 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:02:31,600 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:10:43,373 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:10:43,379 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:10:43,387 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:10:43,388 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:10:58,553 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:10:58,553 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:10:58,553 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:10:58,554 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:15:18,947 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:15:18,948 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:15:18,954 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:15:18,954 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:16:20,034 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:16:20,034 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:16:20,035 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:16:20,035 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:16:57,537 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:16:57,544 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:16:57,551 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:16:57,551 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:17:19,633 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:17:19,633 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:17:19,634 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:17:19,634 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:18:39,906 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:18:39,906 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:18:39,914 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:18:39,914 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:19:20,231 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:19:20,231 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:19:20,232 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:19:20,232 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:21:46,960 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:21:46,965 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:21:46,970 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:21:46,970 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:22:13,709 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:22:13,709 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:22:13,710 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:22:13,710 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:22:26,019 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:22:26,048 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:22:26,054 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:22:26,054 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:22:54,820 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:22:54,820 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:22:54,821 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:22:54,821 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:23:06,486 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:23:06,491 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:23:06,498 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:23:06,499 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:23:16,215 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:23:16,215 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:23:16,215 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:23:16,215 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:23:53,901 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:23:53,908 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:23:53,927 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:23:53,927 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:27:14,829 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:27:14,829 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:27:14,829 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:27:14,829 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:33:55,444 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:33:55,444 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:33:55,469 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:33:55,473 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:35:58,524 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:35:58,524 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:35:58,525 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:35:58,525 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:39:29,975 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:39:29,975 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:39:29,981 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:39:29,981 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:39:54,497 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:39:54,497 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:39:54,498 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:39:54,499 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:42:20,407 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:42:20,413 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:42:20,419 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:42:20,419 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 15:42:37,692 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:42:37,692 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 15:42:37,692 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 15:42:37,692 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:04:04,290 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:04:04,290 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:04:04,298 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:04:04,298 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:04:55,120 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:04:55,120 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:04:55,120 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:04:55,120 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:05:03,093 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:05:03,124 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:05:03,129 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:05:03,129 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:08:39,701 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:08:39,702 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:08:39,702 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:08:39,702 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:13:24,539 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:13:24,545 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:13:24,551 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:13:24,552 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:15:40,024 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:15:40,024 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:15:40,024 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:15:40,024 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:16:37,347 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:16:37,347 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:16:37,352 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:16:37,352 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:21:55,235 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:21:55,235 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:21:55,236 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:21:55,236 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:25:59,970 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:25:59,970 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\main\resources
+2018-06-16 16:25:59,983 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-16 16:25:59,984 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\CKCC\Desktop\Saturday\SwingFrame\src\test\resources
+2018-06-16 16:31:07,974 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-23 08:39:45,193 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
