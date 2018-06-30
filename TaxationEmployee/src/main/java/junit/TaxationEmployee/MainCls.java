@@ -2,10 +2,12 @@ package junit.TaxationEmployee;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.sql.Time;
+//import java.sql.Time;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreePath;
 
@@ -32,10 +34,21 @@ public class MainCls extends JFrame implements ActionListener{
 	JComboBox cboGender;
 	JTextField txtEmpID, txtFirstName, txtLastName, txtEmail, txtDOB;
 	// For company 
+	
 	JTextField txtSalary, txtBenefit, txtDepartment, txtPosition;
 	// For Family
+	
 	JTextField txtmMinorChild;
 	JRadioButton rbYes, rbNo;
+	
+	// New Employee Button
+	JButton btnSave, btnClear;
+	
+	// Search Box
+	JComboBox cboFeilds;
+	JTextField txtSearch;
+	DefaultTableModel tbModel;
+	JTable tbEmp;
 	
 	public MainCls() {
 	
@@ -163,9 +176,9 @@ public class MainCls extends JFrame implements ActionListener{
 						// Get last selected path
 						String lastSelectedPath = treePath.getLastPathComponent().toString();
 						if(lastSelectedPath.equals("New Employee")) {
-							listEmployee();
+							listAndNewEmployee();
 						}else if(lastSelectedPath.equals("List Employee")) {
-							listEmployee();
+							listAndNewEmployee();
 						}else if(lastSelectedPath.equals("Employee Tax Report")) {
 							employeeTaxReport();
 						}else if(lastSelectedPath.equals("Tax Rule 2018")) {
@@ -186,16 +199,13 @@ public class MainCls extends JFrame implements ActionListener{
 		return nodeRoot;
 	}
 	
-	public static void main(String[] args) {
-		new MainCls();
-	}
-
+	// ActionListener of Tree and Menu data menber
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		if(e.getSource() == mItemNewEmp) {
-			listEmployee();
+			listAndNewEmployee();
 		} else if(e.getSource() == mItemListEmp) {
-			listEmployee();
+			listAndNewEmployee();
 		}else if(e.getSource() == mItemTaxRule){
 			//Create Icon
 			taxRule2018();	
@@ -207,16 +217,8 @@ public class MainCls extends JFrame implements ActionListener{
 		
 	}
 
-	private void listEmployee() {
-		JPanel empPanel = new JPanel(new BorderLayout(10, 10));
-		JPanel empList = new JPanel();
-		JPanel empNew = new JPanel();
-		
-		// Create group box - New Employee
-		TitledBorder tBorderNewEmp = BorderFactory.createTitledBorder("Create Employee");
-		tBorderNewEmp.setTitleJustification(TitledBorder.CENTER);
-		empNew.setBorder(tBorderNewEmp);
-		
+	private JPanel employeeSection() {
+		// Create Block Employee Section
 		JPanel blockEmpInfo = new JPanel(new GridLayout(6, 2, 10, 10));
 		blockEmpInfo.add(new JLabel("Employee ID :"));
 		blockEmpInfo.add(txtEmpID = new JTextField());
@@ -236,7 +238,10 @@ public class MainCls extends JFrame implements ActionListener{
 		blockEmpInfo_FINAL.add(new JLabel("Employee Information"), BorderLayout.NORTH);
 		blockEmpInfo_FINAL.add(new JSeparator(), BorderLayout.CENTER);
 		blockEmpInfo_FINAL.add(blockEmpInfo, BorderLayout.SOUTH);
+		return 	blockEmpInfo_FINAL;
 		
+	}
+	private JPanel companySection() {
 		// Create Company block
 		JPanel blockComInfo = new JPanel(new GridLayout(4, 2, 10, 10));
 		blockComInfo.add(new JLabel("Employee Department :"));
@@ -252,37 +257,127 @@ public class MainCls extends JFrame implements ActionListener{
 		blockComInfo_FINAL.add(new JLabel("Company Information"), BorderLayout.NORTH);
 		blockComInfo_FINAL.add(new JSeparator(), BorderLayout.CENTER);
 		blockComInfo_FINAL.add(blockComInfo, BorderLayout.SOUTH);
+		return blockComInfo_FINAL;
+	}
+	private JPanel familySection() {
 		// Create Block Family 
+				JPanel blockFamInfo = new JPanel(new GridLayout(2, 2, 10, 10));
+				blockFamInfo.add(new JLabel("Employee Has Spouse? :"));
+				// Radio button FlowLaout
+				JPanel rbPanel = new JPanel(new FlowLayout());
+				rbPanel.add(rbYes = new JRadioButton("Yes"));
+				rbPanel.add(rbNo = new JRadioButton("No"));
+				ButtonGroup bgGroup = new ButtonGroup();
+				bgGroup.add(rbYes);
+				bgGroup.add(rbNo);
+				//=================================================
+				blockFamInfo.add(rbPanel);
+				blockFamInfo.add(new JLabel("Employee Minor Child :"));
+				blockFamInfo.add(txtmMinorChild = new JTextField(12));
+				// Create block Family Info Final
+				JPanel blockFamInfo_FINAL = new JPanel(new BorderLayout(10, 10));
+				blockFamInfo_FINAL.add(new JLabel("Family Information"), BorderLayout.NORTH);
+				blockFamInfo_FINAL.add(new JSeparator(), BorderLayout.CENTER);
+				blockFamInfo_FINAL.add(blockFamInfo, BorderLayout.SOUTH);
+			return blockFamInfo_FINAL;
+	}
+	// Block btn Employee
+	private JPanel finalBlockNewEmployee() {
+		JPanel empNew = new JPanel(new BorderLayout(10, 10));
+		// Create group box - New Employee
+		TitledBorder tBorderNewEmp = BorderFactory.createTitledBorder("Create Employee");
+		tBorderNewEmp.setTitleJustification(TitledBorder.CENTER);
+		empNew.setBorder(tBorderNewEmp);
+		// Combine all in one
+		JPanel blockAllInfo = new JPanel(new BorderLayout(10, 10));
+		blockAllInfo.add(employeeSection(), BorderLayout.NORTH);
+		blockAllInfo.add(companySection() , BorderLayout.CENTER);
+		blockAllInfo.add(familySection(), BorderLayout.SOUTH);
+		// Button section ==================================== 
+		JPanel actionButton = new JPanel(new FlowLayout());
+		actionButton.add(btnSave = new JButton("SAVE"));
+		actionButton.add(btnClear = new JButton("CLEAR"));
+		// ==================== Add all and Button Section
+		JPanel blockAllInfo_Final = new JPanel(new BorderLayout(10,10));
+		blockAllInfo_Final.add(blockAllInfo, BorderLayout.NORTH);
+		blockAllInfo_Final.add(new JSeparator(), BorderLayout.CENTER);
+		blockAllInfo_Final.add(actionButton, BorderLayout.SOUTH);
+		empNew.add(blockAllInfo_Final);
+		return empNew;
+	}
+	// =================================================================
+	// Tab List and Create New Employee
+	private JPanel finalBlockListEmployee() {
 		
-		JPanel blockFamInfo = new JPanel(new GridLayout(2, 2, 10, 10));
-		blockFamInfo.add(new JLabel("Employee Hs Spouse? :"));
+		JPanel empList = new JPanel(new BorderLayout(10, 10));
+		TitledBorder tBorderNewEmp = BorderFactory.createTitledBorder("LIST OF EMPLOYEES");
+		tBorderNewEmp.setTitleJustification(TitledBorder.CENTER);
+		empList.setBorder(tBorderNewEmp);
+		// Create Search box and Count Employee
+		JPanel searchAndCountPanel = new JPanel(new GridLayout(1, 2, 10, 10));
+		JPanel searchPanel = new JPanel(new FlowLayout());
+		searchPanel.add(new JLabel("Fields :"));
+		String[] searchFeildsText = {"ID", "First Name", "Last Name", "Email", "Department", "Position"};
+		searchPanel.add(cboFeilds = new JComboBox(searchFeildsText));
+		searchPanel.add(new JLabel("Search"));
+		searchPanel.add(txtSearch = new JTextField(12));
+		// Create Search Area
+		searchAndCountPanel.add(searchPanel);
+		// Add Count Employee
+		searchAndCountPanel.add(new JLabel("# Employees : 0", SwingConstants.RIGHT));
+		// Add header to Layout
 		
-		// Radio button FlowLaout
+		JPanel blockHearder = new JPanel(new BorderLayout(10, 10));
+		blockHearder.add(new JLabel("List of Your Employees"), BorderLayout.NORTH);
+		blockHearder.add(new JSeparator(), BorderLayout.CENTER);
+		blockHearder.add(searchAndCountPanel, BorderLayout.SOUTH);
+		// Finish Header Layout Section
+		// ======================================================
+		// Table Employee 
+		tbModel = new DefaultTableModel();
+		tbModel.addColumn("ID");
+		tbModel.addColumn("First Name");
+		tbModel.addColumn("Last Name");
+		tbModel.addColumn("Gender");
+		tbModel.addColumn("Email");
+		tbModel.addColumn("Birthday");
+		tbModel.addColumn("Department");
+		tbModel.addColumn("Position");
+		tbModel.addColumn("Salary($)");
+		tbModel.addColumn("Benefit($)");
+		tbModel.addColumn("Spouse");
+		tbModel.addColumn("Minor Children");
+		String data[] = {"105","Inhae","Park","Male","inhae.park@gmail.com","10/06/1996","Development","Software Engineer","2900","80", "N","0"};
+		// ======================================================
+		tbEmp = new JTable(tbModel);
+		for (int i = 0; i < 100; i++) {
+			tbModel.addRow(data);
+		}
 		
-		JPanel rbPanel = new JPanel(new FlowLayout());
-		rbPanel.add(rbYes = new JRadioButton("Yes"));
-		rbPanel.add(rbNo = new JRadioButton("No"));
-		ButtonGroup bgGroup = new ButtonGroup();
-		bgGroup.add(rbYes);
-		bgGroup.add(rbNo);
-		//=================================================
-		blockFamInfo.add(rbPanel);
-		blockFamInfo.add(new JLabel("Employee Minor Child :"));
-		blockFamInfo.add(txtmMinorChild = new JTextField());
-		// Create block Family Info Final
-		JPanel blockFamInfo_FINAL = new JPanel(new BorderLayout(10, 10));
-		blockFamInfo_FINAL.add(new JLabel("Family Information"), BorderLayout.NORTH);
-		blockFamInfo_FINAL.add(new JSeparator(), BorderLayout.CENTER);
-		blockFamInfo_FINAL.add(blockFamInfo, BorderLayout.SOUTH);
-		//
-		empNew.add(blockEmpInfo_FINAL);
-		empNew.add(blockComInfo_FINAL);
-		empNew.add(blockFamInfo_FINAL);
+		JPanel blockFINAL = new JPanel(new BorderLayout(10, 10));
+		blockFINAL.add(blockHearder, BorderLayout.NORTH);
+		blockFINAL.add(new JScrollPane(tbEmp), BorderLayout.CENTER);
+		empList.add(blockFINAL);
+		return empList;
+	}
 	
-		empPanel.add(empList, BorderLayout.CENTER);
-		empPanel.add(empNew, BorderLayout.EAST);
-		jTab.addTab("Employee List", empPanel);
-		jTab.setSelectedComponent(empPanel);
+	// Tab List and Create New Employee
+	private void listAndNewEmployee() {
+		JPanel empPanel = new JPanel(new BorderLayout(10, 10));
+		// =======================================
+		// Add New Employee Section to Layout
+		empPanel.add(new JScrollPane(finalBlockNewEmployee()), BorderLayout.EAST);
+		// Finished New Employee Section to Layout
+		// =======================================
+		// Add List Employee Section
+		empPanel.add(new JScrollPane(finalBlockListEmployee()), BorderLayout.CENTER);
+		// =======================================
+		
+		JPanel mainBlock = new JPanel(new CardLayout(10, 10));
+		mainBlock.add(empPanel);
+		// Tap Bar of Employee List and New Section
+		jTab.addTab("Employee List", mainBlock);
+		jTab.setSelectedComponent(mainBlock);
 		
 	}
 	
@@ -294,6 +389,7 @@ public class MainCls extends JFrame implements ActionListener{
 		jTab.addTab("Tax Report Employee", new JLabel("Tax Report Employee..."));		
 		
 	}
+	// Tax Rule 2018 Tab and Tree
 	private void taxRule2018() {
 		JLabel lbl1 = new JLabel("",SwingConstants.CENTER);
 		ImageIcon icon1 = new ImageIcon("images/tax2018-1.jpg");
@@ -305,7 +401,6 @@ public class MainCls extends JFrame implements ActionListener{
 		ImageIcon icon3 = new ImageIcon("images/tax2018-3.jpg");
 		lbl3.setIcon(icon3);
 		// Create Panel for Icon
-		
 		JPanel jPanelIcon = new JPanel(new BorderLayout(10,10));
 		jPanelIcon.add(lbl1, BorderLayout.NORTH);
 		jPanelIcon.add(lbl2, BorderLayout.CENTER);
@@ -315,5 +410,8 @@ public class MainCls extends JFrame implements ActionListener{
 		jTab.addTab("Tax Rule 2018", jspanel);
 		jTab.setSelectedComponent(jspanel);	
 	}
-	 
+	// Main Function To Execute Program
+	public static void main(String[] args) {
+		new MainCls();
+	}
 }
