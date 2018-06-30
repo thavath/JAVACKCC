@@ -105,21 +105,38 @@ public class MainCls extends JFrame implements ActionListener{
 		// TODO Auto-generated method stub
 		JPanel leftPanel = new JPanel();
 		//Create Tree Node Employee 
+		DefaultMutableTreeNode rootNode = new DefaultMutableTreeNode("Root Node");
 		DefaultMutableTreeNode nodeEmpMgt = new DefaultMutableTreeNode("Employee");
 		DefaultMutableTreeNode nodeAddEmp = new DefaultMutableTreeNode("Add Employee");
 		DefaultMutableTreeNode nodeListEmp = new DefaultMutableTreeNode("List Employee");
 		nodeEmpMgt.add(nodeAddEmp); nodeEmpMgt.add(nodeListEmp);
 		// Create JTree Employee
-		jTreeEmployee = new JTree(nodeEmpMgt);
 		// ============End of Tree Employee
 		// create object Tree node Tax report
 		DefaultMutableTreeNode nodeReport = new DefaultMutableTreeNode("Report");
 		DefaultMutableTreeNode nodeReportTax = new DefaultMutableTreeNode("Report Tax");
 		nodeReport.add(nodeReportTax);
 		// Create JTree Report
-		jTreeReport = new JTree(nodeReport);
-		leftPanel.add(jTreeEmployee);
-		leftPanel.add(jTreeReport);
+		DefaultMutableTreeNode nodeTaxRule = new DefaultMutableTreeNode("Tax Rule");
+		DefaultMutableTreeNode nodeTaxRule2018 = new DefaultMutableTreeNode("Tax Rule 2018");
+		DefaultMutableTreeNode nodeTaxCaculator = new DefaultMutableTreeNode("Tax Calculator");
+		nodeTaxRule.add(nodeTaxRule2018);
+		nodeTaxRule.add(nodeTaxCaculator);
+		// Add all node to the same root
+		rootNode.add(nodeEmpMgt);
+		rootNode.add(nodeReport);
+		rootNode.add(nodeTaxRule);
+		// Create new Root to add all node to Panel
+		JTree nodeRoot = new JTree(rootNode);
+		nodeRoot.setRootVisible(false);
+		// Expand all tree nodes
+		for (int i = 0; i <= nodeRoot.getRowCount(); i++) {
+			// getRowCount to count number of node in JTree
+			// expandRow to show node in detail one by one
+			nodeRoot.expandRow(i);
+		}
+		
+		leftPanel.add(nodeRoot);
 		return leftPanel;
 	}
 
