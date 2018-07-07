@@ -2248,3 +2248,6 @@ org.eclipse.core.runtime.OperationCanceledException
 
 !ENTRY org.eclipse.jdt.ui 2 0 2018-07-07 16:19:16.880
 !MESSAGE The 'org.eclipse.recommenders.completion.rcp.javaCompletionProposalComputer.intelligent' proposal computer from the 'org.eclipse.recommenders.completion.rcp' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
+
+!ENTRY org.eclipse.core.resources 4 567 2018-07-07 16:43:46.552
+!MESSAGE The project description file (.project) for 'junittesting' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.

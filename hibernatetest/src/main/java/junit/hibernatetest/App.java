@@ -21,15 +21,7 @@ public class App
 
 			System.out.println("Connection to database name hibernate" + url);
 			Connection con = DriverManager.getConnection(url, user, password);
-			System.out.println("Connection Successfully connected.........");
-			Statement stm = con.createStatement();
-			System.out.println(stm);
-			
-			try {
-				System.out.println("Table created successfully...");
-			} catch (Exception e) {
-				System.out.println("Table fail to create.....sorry(^,^)");
-			}
+			System.out.println("Connection Successfully connected.........");			
 			
     	} catch (Exception e) {
 			e.printStackTrace();
