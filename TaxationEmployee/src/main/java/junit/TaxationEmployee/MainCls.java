@@ -5,7 +5,6 @@ import java.awt.event.*;
 //import java.sql.Time;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -49,6 +48,19 @@ public class MainCls extends JFrame implements ActionListener{
 	JTextField txtSearch;
 	DefaultTableModel tbModel;
 	JTable tbEmp;
+	JTextField txtExchangeRate;
+	JTextField txtCalSalary;
+	JTextField txtCalBenefit;
+	JTextField txtCalExRate;
+	JRadioButton rbCYes;
+	JRadioButton rbCNo;
+	JButton btnClearCal;
+	JButton btnCalculate;
+	JTextField txtCalChild;
+	JLabel taxReil;
+	JLabel taxDollar;
+	JLabel netReil;
+	JLabel netDollar;
 	
 	public MainCls() {
 	
@@ -382,12 +394,135 @@ public class MainCls extends JFrame implements ActionListener{
 	}
 	
 	private void taxCalculator() {
-		jTab.addTab("Tax Calculator", new JLabel("Tax Calculator..."));
+		// Create Block Employee Section
+				JPanel blockCalInfo = new JPanel(new GridLayout(5, 2, 10, 10));
+				blockCalInfo.add(new JLabel("Salary($) :"));
+				blockCalInfo.add(txtCalSalary = new JTextField());
+				blockCalInfo.add(new JLabel("Benefit($) :"));
+				blockCalInfo.add(txtCalBenefit = new JTextField());
+				blockCalInfo.add(new JLabel("Exchange Rate (1USD) :"));
+				blockCalInfo.add(txtCalExRate = new JTextField());
+				// Radio Groud
+				blockCalInfo.add(new JLabel("Employee Has Spouse? :"));
+				// Radio button FlowLaout
+				JPanel rbPanel = new JPanel(new FlowLayout());
+				rbPanel.add(rbCYes = new JRadioButton("Yes"));
+				rbPanel.add(rbCNo = new JRadioButton("No"));
+				ButtonGroup bgGroup = new ButtonGroup();
+				bgGroup.add(rbCYes);
+				bgGroup.add(rbCNo);
+				blockCalInfo.add(rbPanel);
+				blockCalInfo.add(new JLabel("Children :"));
+				blockCalInfo.add(txtCalChild = new JTextField());
+				// Create block Family Info Final
+
+				JPanel blockEmpInfo_FINAL = new JPanel(new BorderLayout(10, 10));
+				blockEmpInfo_FINAL.add(new JLabel("Salary Tax Calculator"), BorderLayout.NORTH);
+				blockEmpInfo_FINAL.add(new JSeparator(), BorderLayout.CENTER);
+				blockEmpInfo_FINAL.add(blockCalInfo, BorderLayout.SOUTH);
+				JPanel empNew = new JPanel(new BorderLayout(10, 10));
+				
+				//======================================End Calculator block
+				//====================================================================
+				// Create Block Show Tax and Net Salary
+				JPanel blockCalculator = new JPanel(new FlowLayout());
+				blockCalculator.add(btnCalculate = new JButton("Calculate"));
+				blockCalculator.add(btnClearCal = new JButton("Clear"));
+				
+				JPanel blockShowTax = new JPanel(new GridLayout(4, 2, 10, 10));
+				blockShowTax.add(new JLabel("Tax on Salary :"));
+				blockShowTax.add(taxReil = new JLabel("Tax on Salary(Reil)"));
+				blockShowTax.add(new JLabel(" "));
+				blockShowTax.add(taxDollar = new JLabel("Tax on Salary($)"));
+				blockShowTax.add(new JLabel("Net Salary :"));
+				blockShowTax.add(netReil = new JLabel("Net Salary(Reil)"));
+				blockShowTax.add(new JLabel(" "));
+				blockShowTax.add(netDollar = new JLabel("Net Salary($)"));
+				
+				JPanel showTax = new JPanel(new BorderLayout(10, 10));
+				showTax.add(blockCalculator, BorderLayout.NORTH);
+				showTax.add(blockShowTax, BorderLayout.CENTER);
+				// Create group box - New Employee
+				TitledBorder tBorderNewEmp = BorderFactory.createTitledBorder("Employee Tax Calculator");
+				tBorderNewEmp.setTitleJustification(TitledBorder.CENTER);
+				empNew.setBorder(tBorderNewEmp);
+				// Combine all in one
+				JPanel blockCalAllInfo = new JPanel(new BorderLayout(10, 10));
+				blockCalAllInfo.add(blockEmpInfo_FINAL, BorderLayout.NORTH);
+				
+//				blockAllInfo.add(familySection(), BorderLayout.SOUTH);
+				// Button section ==================================== 
+				// ==================== Add all and Button Section
+				JPanel blockAllInfo_Final = new JPanel(new BorderLayout(10,10));
+				blockAllInfo_Final.add(blockCalAllInfo, BorderLayout.NORTH);
+				blockAllInfo_Final.add(new JSeparator(), BorderLayout.CENTER);
+				blockAllInfo_Final.add(showTax, BorderLayout.SOUTH);
+				JPanel allBlock = new JPanel( new CardLayout(400, 20));
+				allBlock.add(blockAllInfo_Final);
+				empNew.add(allBlock, BorderLayout.NORTH);
+				jTab.addTab("Tax Calculator", empNew);
+				jTab.setSelectedComponent(empNew);
 	}
 	private void employeeTaxReport() {
-		// TODO Auto-generated method stub
-		jTab.addTab("Tax Report Employee", new JLabel("Tax Report Employee..."));		
+		// TODO Auto-generated method stub	
+		JPanel empList = new JPanel(new BorderLayout(10, 10));
+		TitledBorder tBorderNewEmp = BorderFactory.createTitledBorder("Employee Tax Report ");
+		tBorderNewEmp.setTitleJustification(TitledBorder.CENTER);
+		empList.setBorder(tBorderNewEmp);
+		// Create Search box and Count Employee
+		JPanel exchangeRatePanel = new JPanel(new GridLayout( 1, 2,10, 10));
+		JPanel exchangePanel = new JPanel(new FlowLayout());
+		exchangePanel.add(new JLabel("Exchange Rate(1USD):"));
+		exchangePanel.add(txtExchangeRate = new JTextField(12));
+		// Create Search Area
+		exchangeRatePanel.add(exchangePanel);
+		// Add Count Employee
+		exchangeRatePanel.add(new JLabel("# Employees : 0", SwingConstants.RIGHT));
+		// Add header to Layout
 		
+		JPanel blockHearder = new JPanel(new BorderLayout(10, 10));
+		blockHearder.add(new JLabel("Employee Tax Report "), BorderLayout.NORTH);
+		blockHearder.add(new JSeparator(), BorderLayout.CENTER);
+		blockHearder.add(exchangeRatePanel, BorderLayout.SOUTH);
+		// Finish Header Layout Section
+		// ======================================================
+		// Table Employee 
+		tbModel = new DefaultTableModel();
+		tbModel.addColumn("ID");
+		tbModel.addColumn("First Name");
+		tbModel.addColumn("Last Name");
+		tbModel.addColumn("Gender");
+		tbModel.addColumn("Email");
+		tbModel.addColumn("Birthday");
+		tbModel.addColumn("Department");
+		tbModel.addColumn("Position");
+		tbModel.addColumn("Salary($)");
+		tbModel.addColumn("Benefit($)");
+		tbModel.addColumn("Spouse");
+		tbModel.addColumn("Minor Children");
+		tbModel.addColumn("Tax on Salary(Reil)");
+		tbModel.addColumn("Tax on Salary(U$D)");
+		tbModel.addColumn("Net Salary(Reil)");
+		tbModel.addColumn("Net Salary(USD)");
+		
+		String data[] = {"105","Inhae","Park","Male","inhae.park@gmail.com","10/06/1996","Development","Software Engineer","2900","80", "N","0"};
+		tbEmp = new JTable(tbModel);
+		for (int i = 0; i < 9; i++) {
+			tbModel.addRow(data);
+		}
+		
+		JPanel blockFINAL = new JPanel(new BorderLayout(10, 10));
+		blockFINAL.add(blockHearder, BorderLayout.NORTH);
+		blockFINAL.add(new JScrollPane(tbEmp), BorderLayout.CENTER);
+		empList.add(blockFINAL);
+		
+		JPanel empPanel = new JPanel(new BorderLayout(10, 10));
+		// =======================================
+		// =======================================
+		// Add List Employee Section
+		empPanel.add(new JScrollPane(empList), BorderLayout.CENTER);
+		jTab.addTab("Tax Report Employee", empPanel);
+		jTab.setSelectedComponent(empPanel);
 	}
 	// Tax Rule 2018 Tab and Tree
 	private void taxRule2018() {
