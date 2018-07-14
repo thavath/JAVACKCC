@@ -1,0 +1,46 @@
+package savestudents;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import junit.hibernatetest.Student;
+
+public class saveStudent {
+	
+	public static void main(String[] args) {
+		
+		SessionFactory factory = new Configuration()
+				.configure("hibernate.cfg.xml")
+				.addAnnotatedClass(Student.class)
+				.buildSessionFactory();
+		Session sessionObj = factory.getCurrentSession();
+		
+		try {
+			
+			
+			sessionObj.beginTransaction();
+			
+			List<Student> theStudent = sessionObj.createQuery("from student").getResultList();			
+			System.out.println("Select all student");
+			System.out.println("==================================");
+
+			for (Student student : theStudent) {
+				System.out.println("=========== First Name ===========");
+				student.getFirstName();
+				System.out.println("===============");
+			}
+			
+			sessionObj.getTransaction().commit();
+			System.out.println("Done ...");
+			
+		} finally {
+			
+			factory.close();
+			
+		}
+		
+	}
+
+}

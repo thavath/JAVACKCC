@@ -1,0 +1,22 @@
+package junit.SwingFrame;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        JFrame f = new JFrame("First Frame");
+        JButton b = new JButton("Don't Click Me...!");
+        b.setBounds(130, 100, 300, 30);
+        f.add(b);
+        f.setSize(600, 350);
+        f.setLayout(null);
+        f.setVisible(true);
+    }
+}

@@ -1,5 +1,7 @@
 package savestudents;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -16,15 +18,25 @@ public class saveStudent {
 		Session sessionObj = factory.getCurrentSession();
 		
 		try {
-			System.out.println("Creating new student");
-			Student stu = new Student("Paul","School", "school.paul@gmail.com");
+			
 			
 			sessionObj.beginTransaction();
-			System.out.println("Saving student");
-			sessionObj.save(stu);
-			sessionObj.getTransaction().commit();
-			System.out.println("Done ...");
 			
+			List<Student> theStudent = sessionObj.createQuery("from Student").getResultList();		
+			
+			
+			System.out.println("Select all student");
+			System.out.println("==================================");
+			
+			System.out.println(theStudent.size());
+
+			for (Student student : theStudent) {
+				System.out.println("=========== First Name ===========");
+				System.out.println(student.toString());
+				System.out.println("===============");
+			}
+			System.out.println("Done ...");
+			sessionObj.getTransaction().commit();
 		} finally {
 			
 			factory.close();
@@ -32,4 +44,5 @@ public class saveStudent {
 		}
 		
 	}
+
 }

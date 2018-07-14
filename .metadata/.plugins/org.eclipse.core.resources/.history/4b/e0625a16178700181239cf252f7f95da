@@ -1,0 +1,59 @@
+package junit.hibernatetest;
+
+import javax.persistence.*;
+
+@Entity
+
+@Table(name = "students")
+
+public class Student {
+	
+	@Id
+	@Column(name = "ID")
+	private int id;
+	
+	@Column(name = "FullName")
+	private String firstName;
+	
+	@Column(name = "Major")
+	private String lastName;
+	
+	@Column(name = "University")
+	private String email;
+	
+	public Student() {
+		this.firstName = "unknow";
+		this.lastName = "unknow";
+		this.email = "unknow";
+	}
+	
+	public Student(String firstName, String lastName, String email) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}	
+}

@@ -1,0 +1,53 @@
+package junit.SwingFrame;
+
+import java.awt.*;
+
+import javax.swing.*;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        JFrame f = new JFrame("First Frame");
+        JButton b = new JButton("Don't Click Me...!");
+        final JTextField t1 = new JTextField("");
+        final JTextField t2 = new JTextField("");
+        String data[][] = {{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"},
+        					{"101","thavath", "92785"}};
+        String culumn[] = {"ID", "Name", "Salary"};
+        JTable jt = new JTable(data, culumn);
+        
+        b.setBounds(200, 250, 300, 30);
+        jt.setBounds(250,300,300, 400);
+        t1.setBounds(50, 100 ,200, 30);
+        t2.setBounds(50, 150 ,200, 30);
+       
+        JScrollPane sp = new JScrollPane(jt);
+        sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);  
+        sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);  
+        t1.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				t2.setText(t1.getText());
+			}
+		});
+        f.add(b);
+        f.add(t1);
+        f.add(t2);
+        f.add(sp);
+        f.setSize(1000, 800);
+        f.setLayout(null);
+        f.setVisible(true);
+    }
+}

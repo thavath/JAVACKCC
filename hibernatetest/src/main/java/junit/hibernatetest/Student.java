@@ -9,6 +9,7 @@ import javax.persistence.*;
 public class Student {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY) // to allow us use getID for retrieving data and tell it is auto increment 
 	@Column(name = "id")
 	private int id;
 	
@@ -55,5 +56,11 @@ public class Student {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}	
+	
 }
